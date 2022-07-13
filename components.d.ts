@@ -10,6 +10,7 @@ declare module '@vue/runtime-core' {
     BoardThumbNew: typeof import('./src/components/BoardThumbNew.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
+    TheNavBar: typeof import('./src/components/TheNavBar.vue')['default']
   }
 }
 
